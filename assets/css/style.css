@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    transition: 200ms;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+#cookies {
+    background-color: #000000aa;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1vh 0;
+    text-align: center;
+    z-index: 100;
+}
+
+#cookies #accept {
+    background-color: white;
+    color: black;
+    padding: 1vh 2vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cookies #accept:hover {
+    background-color: #ffffffaa;
+    color: black;
+}
+
+header, #cookies {
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+header nav #title {
+    margin: 0 2vw 0 0;
+    color: white;
+}
+
+header nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    color: #ffffffaa;
+}
+
+
+#home, #soon {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#soon {
+    height: 80vh;
+}
+
+#soon h1 {
+    font-size: 3vw;
+    margin-bottom: 2vh;
+}
+
+#soon p {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#soon .disabled {
+    margin: 2vh 0;
+}
+
+#home h1 {
+    font-size: 2.5vw;
+    margin-bottom: 2vh;
+}
+
+#home p {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0000aa;
+}
+
+.content {
+    width: 80%;
+    padding: 3vh 0;
+    margin: 0 auto;
+}
+
+.content * {
+    margin: 1vh 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 1% 5%;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #000000aa;
+    color: white;
+}
+
+.disabled {
+    display: inline-block;
+    background-color: #aaaaaa;
+    color: #ffffffaa;
+    cursor: not-allowed;
+}
+
+.disabled:hover {
+    background-color: #aaaaaa;
+    color: #ffffffaa;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 2vh 0;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+footer ul li {
+    padding: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #ffffffaa;
+}
+
+header,
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
