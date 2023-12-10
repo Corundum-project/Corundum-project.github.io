@@ -75,6 +75,11 @@ nav li a:hover {
     color: #ffffffaa;
 }
 
+#home {
+    width: 85%;
+    margin: 1vh auto;
+    border-radius: 15px;
+}
 
 #home, #soon {
     background-image: url("../img/background.jpg");

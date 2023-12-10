@@ -1,0 +1,15 @@
+header, #cookies, .button, footer {
+    background-color: #5CA1DB;
+}
+
+.button:hover {
+    background-color: #5CA1DBaa;
+}
+
+#home {
+    background-image: url("../img/background-shop.jpg");
+}
+
+#homeSpace {
+    margin: 0 0 2vh 0;
+}
